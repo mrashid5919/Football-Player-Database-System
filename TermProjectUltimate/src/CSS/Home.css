@@ -1,0 +1,12 @@
+.table-view{
+    -fx-background-color: #696969;
+}
+
+.table-view .column-header{
+    -fx-background-color: #6bd0ff;
+}
+
+.table-view .table-row-cell {
+    -fx-control-inner-background: #696969;
+    -fx-control-inner-background-alt: #1f2123;
+}
