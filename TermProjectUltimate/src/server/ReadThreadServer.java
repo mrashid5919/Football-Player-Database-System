@@ -71,16 +71,14 @@ public class ReadThreadServer implements Runnable{
                             Player p = ((SellPlayer) o).getPlayer();
                             List<Player> ClubPlayerList=((SellPlayer) o).getPlayerList();
                             String club=((SellPlayer) o).getName();
-                            /*List<Player> playerList=Server.getPlayerList();
+                            List<Player> playerList=Server.getPlayerList();
                             for(Player pl: playerList){
                                 if(pl.getName().equalsIgnoreCase(p.getName())){
                                     playerList.remove(pl);
+                                    break;
                                 }
                             }
                             Server.setPlayerList(playerList);
-                            for(Player pl: Server.getPlayerList()){
-                                System.out.println(pl);
-                            }*/
                             List<Player> MarketList = Server.getMarketList();
                             MarketList.add(p);
                             Server.setMarketList(MarketList);
