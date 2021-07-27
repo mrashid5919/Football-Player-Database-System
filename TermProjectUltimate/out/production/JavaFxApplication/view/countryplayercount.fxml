@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1f2123;" stylesheets="@../CSS/Home.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CountryPlayerController">
+   <children>
+      <TableView fx:id="tableView" layoutX="191.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="NameCol" prefWidth="98.00006103515625" text="Country" />
+          <TableColumn fx:id="CountCol" prefWidth="100.0" text="Player Count" />
+        </columns>
+      </TableView>
+      <Button fx:id="back" layoutX="32.0" layoutY="35.0" mnemonicParsing="false" onAction="#Back" prefHeight="29.0" prefWidth="57.0" style="-fx-background-color: #6bd0ff;" text="Back" />
+   </children>
+</AnchorPane>
